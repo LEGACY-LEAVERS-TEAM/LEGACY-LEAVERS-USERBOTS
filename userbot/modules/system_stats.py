@@ -313,7 +313,7 @@ async def amireallyalive(alive):
     logo = ALIVE_LOGO
     output = (
         f"**ㅤㅤ  ╭─━━═━═━═━═━━─╮**\n"
-        f"**       ⊏┊[⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡](t.me/LynxUserbot) ⊨〛💨 **\n"
+        f"**       ⊏┊[⚡LEGACY-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡](t.me/LEGACY_USERBOT_SUPPORT) ⊨〛💨 **\n"
         f"**ㅤㅤ  ╰─━━═━═━═━═━━─╯**\n"
         f"╭╼════════════════════╾╮\n"
         f"│    ⇱  𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐌𝐲 𝐏𝐫𝐨𝐟𝐢𝐥𝐞 ⇲ \n"
@@ -329,7 +329,7 @@ async def amireallyalive(alive):
         f"├◈ **Don't forget to support our**\n"
         f"│    **userbot, how to press below.**\n"
         f"╰╼════════════════════╾╯\n"
-        f"| [𝗥𝗲𝗽𝗼](https://kenzo-404.github.io/Lynx-Userbot) | [𝗟𝘆𝗻𝘅-𝗧𝗲𝗮𝗺](t.me/GroupTidakDiketahui) | "
+        f"| [𝗥𝗲𝗽𝗼](https://github.com/LEGACY-LEAVERS-TEAM/LEGACY-LEAVERS-USERBOT) | [𝗟𝘆𝗻𝘅-𝗧𝗲𝗮𝗺](t.me/GroupTidakDiketahui) | "
         f"[𝗠𝘆 𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺]({INSTAGRAM_ALIVE}) | ")
     if ALIVE_LOGO:
         try:
