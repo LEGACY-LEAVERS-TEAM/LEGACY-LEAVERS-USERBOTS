@@ -1,7 +1,7 @@
 {
- "name": "Lynx-Userbot",
- "description": "[⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡] Used for Fun on Telegram, and for Maintianing Your Group.",
- "logo": "https://telegra.ph/file/f3c656862a017f945c0bc.png",
+ "name": Legacy-Userbot",
+ "description": "[⚡Legacy-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡] Used for Fun on Telegram, and for Maintianing Your Group.",
+ "logo": "https://telegra.ph/file/1a61c11c1d72f10e472ed.jpg",
  "keywords": [
   "telegram",
   "userbot",
@@ -9,8 +9,8 @@
   "modular",
   "python"
  ],
- "repository": "https://github.com/KENZO-404/Lynx-Userbot",
- "telegram": "https://t.me/SyndicateTwenty4",
+ "repository": "https://github.com/LEGACY-LEAVERS-TEAM/LEGACY-LEAVERS-USERBOTS",
+ "telegram": "https://t.me/LEGACY_USERBOT_SUPPORT",
  "stack": "container",
  "env": {
   "API_KEY": {
@@ -142,11 +142,11 @@
   },
   "DEFAULT_BIO": {
    "description": "Default Bio Mu.",
-   "value": "⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
+   "value": "⚡Legacy-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
    "required": false
   },
-  "ALIVE_NAME": {
-   "description": "Nama untuk menunjukan pesan .alive",
+  "ALIVE_NAME": {Name to show message
+   "description": " .alive",
    "required": false
   },
   "S_PACK_NAME": {
