@@ -1,5 +1,5 @@
 {
- "name": Legacy-Userbot",
+ "name": "Legacy-Userbot",
  "description": "[⚡Legacy-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡] Used for Fun on Telegram, and for Maintianing Your Group.",
  "logo": "https://telegra.ph/file/1a61c11c1d72f10e472ed.jpg",
  "keywords": [
@@ -14,32 +14,32 @@
  "stack": "container",
  "env": {
   "API_KEY": {
-   "description": "Dapatkan Api Key di web my.telegram.org.",
+   "description": "Get Api Key in web my.telegram.org.",
    "required": true
   },
   "API_HASH": {
-   "description": "Dapatkan Api Hash Di Web my.telegram.org.",
+   "description": "Get Api Hash Web my.telegram.org.",
    "required": true
   },
   "STRING_SESSION": {
-   "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya @SyncidateTwenty4 di telegram",
+   "description": "Get the Session String in termux, the method is in the repo, if you don't know the repo, ask @SyncidateTwenty4 di telegram",
    "required": true
   },
   "HEROKU_APP_NAME": {
-   "description": "Nama App heroku, Nama App yang paling pertama di isi (liat paling atas)",
+   "description": "Nama App heroku, Nama App first filled in (see top)",
    "required": true
   },
   "HEROKU_API_KEY": {
-   "description": "Heroku API KEY mu, dapatkan dari web 'https://dashboard.heroku.com/account'",
+   "description": "Heroku API KEY mu, get from web 'https://dashboard.heroku.com/account'",
    "value": "Check Di Heroku Dashboard Mu",
    "required": true
   },
   "BOTLOG": {
-   "description": "Kalo Mau Off in BOTLOG Ganti False",
+   "description": "If you want Off in BOTLOG Change False",
    "value": "False"
   },
   "BOTLOG_CHATID": {
-   "description": "Kalau mau ChatID OFF '0' Aja, tapi BOTLOG = FALSE & LOGSPAMMER = False",
+   "description": "If you want ChatID OFF '0' Just, but BOTLOG = FALSE & LOGSPAMMER = False",
    "value": "0"
   },
   "CONSOLE_LOGGER_VERBOSE": {
@@ -47,7 +47,7 @@
    "value": "False"
   },
   "QUOTES_API_TOKEN": {
-   "description": "Dapatkan Token Dari http://antiddos.systems",
+   "description": "Get Tokens From http://antiddos.systems",
    "required": false
   },
   "GENIUS_ACCESS_TOKEN": {
@@ -145,8 +145,8 @@
    "value": "⚡Legacy-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
    "required": false
   },
-  "ALIVE_NAME": {Name to show message.",
-   "description": " .alive",
+  "ALIVE_NAME": {
+   "description": "Nama untuk menunjukan pesan .alive",
    "required": false
   },
   "S_PACK_NAME": {
@@ -162,12 +162,12 @@
    "required": false
   },
   "INSTAGRAM_ALIVE": {
-   "description": "Contoh : instagram.com/si_axeell , Silahkan diisi Dengan Username ig Kalian.",
+   "description": "Example : instagram.com/si_axeell , Please fill with Username your ig.",
    "value": "instagram.com/username_ig",
    "required": false
   },
   "SPAMWATCH_API": {
-   "description": "Pergi ke @SpamWatchBot di Telegram untuk mendapatkan SPAMWATCH_API.",
+   "description": "Go to @SpamWatchBot on Telegram to get SPAMWATCH_API.",
    "required": false
   },
   "LYDIA_API_KEY": {
@@ -205,7 +205,7 @@
   },
   "TERM_ALIAS": {
    "description": "Display user for .term command",
-   "value": "Lynx-Userbot",
+   "value": "Legacy-Userbot",
    "required": false
   },
   "USR_TOKEN_UPTOBOX": {
