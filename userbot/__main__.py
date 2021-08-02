@@ -28,6 +28,6 @@ for module_name in ALL_MODULES:
 
 
 LOGS.info(
-    f"⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ 🤖 v.{BOT_VER}\n[TELAH DIAKTIFKAN!]")
+    f"⚡Legacy-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ 🤖 v.{BOT_VER}\n[HAS BEEN ACTIVATED!]")
 
 bot.run_until_disconnected()
