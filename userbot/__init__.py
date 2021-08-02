@@ -97,7 +97,7 @@ CUSTOM_PMPERMIT_TEXT = os.environ.get("CUSTOM_PMPERMIT_TEXT", None)
 # Pm Permit Img
 PM_PERMIT_PIC = os.environ.get(
     "PM_PERMIT_PIC",
-    None) or "https://telegra.ph/file/49ce66ba7e0fa0ce99210.png"
+    None) or "https://telegra.ph/file/1a61c11c1d72f10e472ed.jpg"
 
 # Bleep Blop, this is a bot ;)
 PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
@@ -117,8 +117,8 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/KENZO-404/Lynx-Userbot")
-UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "Lynx-Userbot")
+    "https://github.com/LEGACY-LEAVERS-TEAM/LEGACY-LEAVERS-USERBOTS")
+UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "LEGACY-LEAVERS-USERBOTS")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -167,7 +167,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # Antispambot BAN
 ANTISPAMBOT_BAN = os.environ.get("ANTISPAMBOT_BAN", False)
 
-# Dapatkan Spamwatch API ke @SpamWatchBot di Telegram
+# Get Spamwatch API to @SpamWatchBot on Telegram
 SPAMWATCH_API = os.environ.get("SPAMWATCH_API", None)
 
 if SPAMWATCH_API:
@@ -207,7 +207,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
     "ALIVE_LOGO",
-    None) or "https://telegra.ph/file/78db3f8bc07d3c4a42c4f.mp4"
+    None) or "https://telegra.ph/file/1a61c11c1d72f10e472ed.jpg"
 
 # Link Instagram for CMD Alive
 INSTAGRAM_ALIVE = os.environ.get(
@@ -215,22 +215,22 @@ INSTAGRAM_ALIVE = os.environ.get(
 
 # Inline Picture
 INLINE_PICTURE = os.environ.get(
-    "INLINE_PICTURE") or "resource/logo/LynxUserbot-Button.jpg"
+    "INLINE_PICTURE") or "resource/logo/LEGACYLEAVERSUSERBOTS-Button.jpg"
 
 L_PIC = str(INLINE_PICTURE)
 if L_PIC:
     lynxlogo = L_PIC
 else:
-    lynxlogo = "resource/logo/LynxUserbot-Button.jpg"
+    lynxlogo = "resource/logo/LEGACYLEAVERSUSERBOTS-Button.jpg"
 
 INLINE_LOGO = os.environ.get(
-    "INLINE_LOGO") or "https://telegra.ph/file/b6580efa28fdc144749d5.jpg"
+    "INLINE_LOGO") or "https://telegra.ph/file/1a61c11c1d72f10e472ed.jpg"
 
 IN_PIC = str(INLINE_LOGO)
 if IN_PIC:
     aliplogo = IN_PIC
 else:
-    aliplogo = "https://telegra.ph/file/b6580efa28fdc144749d5.jpg"
+    aliplogo = "https://telegra.ph/file/1a61c11c1d72f10e472ed.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -435,7 +435,7 @@ async def update_restart_msg(chat_id, msg_id):
     cpufreq = psutil.cpu_freq()
     message = (
         f"**╭─━━━━━━━━━━━━━━━━━━━━━─╮**\n"
-        f"**│ㅤㅤㅤ[⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡](t.me/LynxUserbot)**\n"
+        f"**│ㅤㅤㅤ[⚡Legacy-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡](t.me/LEGACY_USERBOT_SUPPORT)**\n"
         f"**│ ㅤis Back up and Running... 🐈**\n"
         f"**╭─━━━━━━━━━━━━━━━━━━━━━─╯**\n"
         f"**│** `OS       :` __Debian GNU/{uname.system} 10 {uname.machine}__\n"
@@ -446,7 +446,7 @@ async def update_restart_msg(chat_id, msg_id):
         f"**│** `Python   :` __{python_version()}__\n"
         f"**│** `User     :` __{DEFAULTUSER}__\n"
         f"**╰━━━━━━━━━━━━━━━━━━━━━━─╯**\n"
-        f" Copyright © 𝟤𝟢𝟤𝟣 Lynx-Userbot\n License : Raphielscape Public License v1.d")
+        f" Copyright © 𝟤𝟢𝟤𝟣 Legacy-Userbot\n License : Raphielscape Public License v1.d")
     await bot.edit_message(chat_id, msg_id, message)
     return True
 
@@ -503,7 +503,7 @@ def alive_inline():
         ),
             custom.Button.url(
             "𝗥𝗣𝗟 𝘃𝟭.𝗱🎖️",
-            "https://github.com/KENZO-404/Lynx-Userbot/blob/Lynx-Userbot/LICENSE",
+            "https://github.com/LEGACY-LEAVERS-TEAM/LEGACY-LEAVERS-USERBOTS/blob/LEGACY-LEAVERS-USERBOTS/LICENSE",
         ),
         ),
         (custom.Button.inline(
@@ -585,13 +585,13 @@ with lynx:
         if L_PIC:
             lynxlogo = L_PIC
         else:
-            lynxlogo = "resource/logo/LynxUserbot-Button.jpg"
+            lynxlogo = "resource/logo/LEGACYLEAVERSUSERBOTS-Button.jpg"
 
         IN_PIC = str(INLINE_LOGO)
         if IN_PIC:
             aliplogo = IN_PIC
         else:
-            aliplogo = "https://telegra.ph/file/b6580efa28fdc144749d5.jpg"
+            aliplogo = "https://github.com/LEGACY-LEAVERS-TEAM/LEGACY-LEAVERS-USERBOTS"
 
         AL_PIC = str(ALIVE_LOGO)
         if AL_PIC:
@@ -610,11 +610,11 @@ with lynx:
                     buttons=[
                         [
                             Button.url("📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢",
-                                       "t.me/FederationSuperGroup/3"),
+                                       "t.me/LEGACY_USERBOT_SUPPORT"),
                             Button.url("🚨 𝗠𝗲𝗻𝘂-𝗕𝗮𝗻𝘁𝘂𝗮𝗻 🚨",
                                        "https://telegra.ph/Bantuan-06-11")],
                         [Button.url("👤 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 👤",
-                                    "t.me/FederationSuperGroup/17")],
+                                    "t.me/@LEGACY_USERBOT_SUPPORT")],
                     ]
                 )
 
@@ -625,7 +625,7 @@ with lynx:
                     f"⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Deploy to Heroku, Click Here 👇🏻",
                     buttons=[
                         [Button.url("⚒️ 𝗗𝗘𝗣𝗟𝗢𝗬 ⚒️", "https://zee.gl/DeployToHeroku")],
-                        [Button.url("👥 𝗚𝗥𝗢𝗨𝗣 👥", "t.me/GroupTidakDiketahui")],
+                        [Button.url("👥 𝗚𝗥𝗢𝗨𝗣 👥", "t.me/LEGACY_USERBOT_SUPPORT")],
                     ],
                 )
 
@@ -636,7 +636,7 @@ with lynx:
                 await event.message.get_sender()
                 text = (
                     f"Haii 😼 [{get_display_name(u)}](tg://user?id={u.id}) My Name is 𝗟𝘆𝗻𝘅 🐈\n"
-                    f"Lynx Used For Fun On Telegram✨,\n"
+                    f"Legacy Used For Fun On Telegram✨,\n"
                     f"and For Maintaining Your Group 🛠️.\n"
                     f"I was **Created by :** @SyndicateTwenty4 For Various Userbots on Github.\n")
                 await lynx.tgbot.send_file(event.chat_id, file=lynxlogo,
@@ -666,7 +666,7 @@ with lynx:
                     f"⚙️ `Telethon    :` v. {version.__version__}\n"
                     f"👨‍💻 `User        :` [{get_display_name(axel)}](tg://user?id={axel.id})\n"
                     "`====================================`\n"
-                    f" Copyright © 𝟤𝟢𝟤𝟣 Lynx-Userbot\n License: Raphielscape Public License v1.d")
+                    f" Copyright © 𝟤𝟢𝟤𝟣 Legacy-Userbot\n License: Raphielscape Public License v1.d")
                 await lynx.tgbot.send_file(event.chat_id, file=alivvlogo,
                                            caption=text,
                                            buttons=[
@@ -674,7 +674,7 @@ with lynx:
                                                    Button.url("🧪𝗥𝗘𝗣𝗢",
                                                               "https://zee.gl/lynx404"),
                                                    Button.url("𝗥𝗣𝗟 𝘃𝟭.𝗱🎖️",
-                                                              "https://github.com/KENZO-404/Lynx-Userbot/blob/Lynx-Userbot/LICENSE")],
+                                                              "https://github.com/LEGACY-LEAVERS-TEAM/LEGACY-LEAVERS-USERBOTS/blob/LEGACY-LEAVERS-USERBOTS/LICENSE")],
                                            ]
                                            )
 
@@ -709,19 +709,19 @@ with lynx:
                 result = builder.photo(
                     photo_bytesio,
                     link_preview=False,
-                    text=f"**Copyright © 𝟤𝟢𝟤𝟣 Lynx-Userbot\nLicense: Raphielscape Public License v1.d**",
+                    text=f"**Copyright © 𝟤𝟢𝟤𝟣 Legacy-Userbot\nLicense: Raphielscape Public License v1.d**",
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
+                    "Bantuan Dari ⚡Legacy-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
                     "╔╡⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡╞╗",
-                    text="""**Anda Bisa Membuat ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Anda Sendiri\nDengan Cara :**__Tekan Dibawah Ini__ 👇""",
+                    text="""**You Can Make ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Yourself\nBy :**__Press Below__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
@@ -729,7 +729,7 @@ with lynx:
                                 "https://zee.gl/lynx404"),
                             custom.Button.url(
                                 "Dᴇᴠᴇʟᴏᴘᴇʀ",
-                                "t.me/FederationSuperGroup/17")],
+                                "t.me/LEGACY_USERBOT_SUPPORT")],
                         [custom.Button.url(
                             "⚒️ 𝗗𝗘𝗣𝗟𝗢𝗬 ⚒️",
                             "https://zee.gl/DeployToHeroku")]],
@@ -753,14 +753,14 @@ with lynx:
                                        )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
+                    "Help From ⚡Legacy-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    "╔╡⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡╞╗",
-                    text="""**Anda Bisa Membuat ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Anda Sendiri\nDengan Cara :**__Tekan Dibawah Ini__ 👇""",
+                    "╔╡⚡Legacy-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡╞╗",
+                    text="""**You Can Make ⚡Legacy-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Anda Sendiri\nDengan Cara :**__Tekan Dibawah Ini__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
@@ -768,7 +768,7 @@ with lynx:
                                 "https://zee.gl/lynx404"),
                             custom.Button.url(
                                 "Dᴇᴠᴇʟᴏᴘᴇʀ",
-                                "t.me/FederationSuperGroup/17")],
+                                "t.me/LEGACY_USERBOT_SUPPORT")],
                         [custom.Button.url(
                             "⚒️ 𝗗𝗘𝗣𝗟𝗢𝗬 ⚒️",
                             "https://zee.gl/DeployToHeroku")]],
@@ -791,7 +791,7 @@ with lynx:
                                  link_preview=False,
                                  )
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n © Lynx-Userbot"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n © Legacy-Userbot"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @lynx.tgbot.on(
@@ -803,7 +803,7 @@ with lynx:
             if event.query.user_id == uid:
                 current_page_number = int(unpage)
                 buttons = paginate_help(current_page_number, plugins, "helpme")
-                text = f"\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n`Branch  :` __{repo.active_branch.name}__\n`Bot     :` __v{BOT_VER}__\n`Plugins :` __{len(plugins)}__\n\n\n**Copyright © 𝟤𝟢𝟤𝟣 Lynx-Userbot\nLicense: Raphielscape Public License v1.d**"
+                text = f"\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n`Branch  :` __{repo.active_branch.name}__\n`Bot     :` __v{BOT_VER}__\n`Plugins :` __{len(plugins)}__\n\n\n**Copyright © 𝟤𝟢𝟤𝟣 Legacy-Userbot\nLicense: Raphielscape Public License v1.d**"
                 await event.edit(text,
                                  file=lynxlogo,
                                  buttons=buttons,
@@ -832,7 +832,7 @@ with lynx:
                     ]
                 )
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n © Lynx-Userbot"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n © Legacy-Userbot"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @lynx.tgbot.on(
@@ -845,9 +845,9 @@ with lynx:
                 buttons = [
                     (custom.Button.inline("Open Menu Again", data="open_menu"),),
                 ]
-                await event.edit(f"**Copyright © 𝟤𝟢𝟤𝟣 Lynx-Userbot\nLicense: Raphielscape Public License v1.d**", file=lynxlogo, buttons=buttons)
+                await event.edit(f"**Copyright © 𝟤𝟢𝟤𝟣 Legacy-Userbot\nLicense: Raphielscape Public License v1.d**", file=lynxlogo, buttons=buttons)
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n © Lynx-Userbot"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n © Legacy-Userbot"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @lynx.tgbot.on(
@@ -856,8 +856,8 @@ with lynx:
             )
         )
         async def on_plug_in_callback_query_handler(event):
-            if event.query.user_id == uid:  # Lynx-Settings
-                text = f"**Copyright © 𝟤𝟢𝟤𝟣 Lynx-Userbot\nLicense: Raphielscape Public License v1.d**"
+            if event.query.user_id == uid:  # Legacy-Settings
+                text = f"**Copyright © 𝟤𝟢𝟤𝟣 Legacy-Userbot\nLicense: Raphielscape Public License v1.d**"
                 await event.edit(text,
                     file=lynxlogo,
                     link_preview=False,
@@ -875,7 +875,7 @@ with lynx:
                     ]
                 )
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n © Lynx-Userbot"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n © Legacy-Userbot"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @lynx.tgbot.on(
@@ -891,7 +891,7 @@ with lynx:
                                  file=alivvlogo,
                                  )
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n © Lynx-Userbot"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n © Legacy-Userbot"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @lynx.tgbot.on(
@@ -908,7 +908,7 @@ with lynx:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n © Lynx-Userbot"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n © Legacy-Userbot"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @lynx.tgbot.on(
@@ -919,7 +919,7 @@ with lynx:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid:  # Lynx-Openeer
                 # https://t.me/TelethonChat/115200
-                text = f"**Copyright © 𝟤𝟢𝟤𝟣 Lynx-Userbot\nLicense: Raphielscape Public License v1.d**"
+                text = f"**Copyright © 𝟤𝟢𝟤𝟣 Legacy-Userbot\nLicense: Raphielscape Public License v1.d**"
                 await event.edit(text,
                     file=lynxlogo,
                     link_preview=True,
@@ -930,7 +930,7 @@ with lynx:
                     ]
                 )
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n © Lynx-Userbot"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n © Legacy-Userbot"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @lynx.tgbot.on(
@@ -948,7 +948,7 @@ with lynx:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n © Lynx-Userbot"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n © Legacy-Userbot"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @lynx.tgbot.on(
@@ -980,13 +980,13 @@ with lynx:
                     )
                 )
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n © Lynx-Userbot"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n © Legacy-Userbot"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
     except BaseException:
         LOGS.info(
             "Mode Inline Bot Mu Nonaktif. "
-            "Untuk Mengaktifkannya, Silahkan Pergi Ke @BotFather Lalu, Settings Bot > Pilih Mode Inline > Turn On."
+            "To activate it, please go to @BotFather Then, Settings Bot > choose Mode Inline > Turn On."
         )
     try:
         bot.loop.run_until_complete(check_botlog_chatid())
