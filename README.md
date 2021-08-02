@@ -121,16 +121,6 @@ and you ended up in a Finale Battle with Telegram and at the end
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LEGACY-LEAVERS-TEAM/LEGACY-LEAVERS-USERBOTS)
 
  𝗨𝘀𝗶𝗻𝗴 𝗚𝗶𝘁 𝗮𝗻𝗱 𝗣𝘆𝘁𝗵𝗼𝗻𝟯 -- 𝗼𝗻 (𝗟𝗶𝗻𝘂𝘅, 𝗺𝗮𝗰𝗢𝗦, 𝗮𝗻𝗱 𝗔𝗻𝗱𝗿𝗼𝗶𝗱 [𝘃𝗶𝗮 𝗧𝗲𝗿𝗺𝘂𝘅])
-1. Clone this repository on your local machine and `cd` (or `chdir`, anti bloat guy) to it
-2. Set up Python virtual environment named "venv" inside it (Requires `virtualenv` installed on the system)
-  - `virtualenv venv`
-  - Don't forget to activate the virtualenv: `. venv/bin/activate`
-3. Set up database for the userbot, search Google on how to set up a local database (PostgreSQL is recommended)
-4. Install the requirements: `pip3 install -r ./requirements.txt`
-5. Edit `sample_config.env` and save it as `config.env`
-  - Do not forget to fill in the `REQUIRED %%` values, or else the bot will not run
-6. Run the bot: `bash ./exec.sh`
-  - Protip: See what `bash ./exec.sh --help` tells you
 
  ※ 𝗧𝗵𝗼𝘀𝗲 𝘀𝘁𝗲𝗽𝘀 𝗮𝗿𝗲 𝗽𝗿𝗼𝗯𝗮𝗯𝗹𝘆 𝗽𝗼𝘀𝘀𝗶𝗯𝗹𝗲 𝘁𝗼 𝗽𝘂𝗹𝗹 𝗼𝗳𝗳 𝗼𝗻 𝗪𝗶𝗻𝗱𝗼𝘄𝘀 𝗯𝘂𝘁 𝗶𝘁'𝘀 𝗽𝗿𝗲𝘁𝘁𝘆 𝗺𝘂𝗰𝗵 𝘂𝗻𝗸𝗻𝗼𝘄𝗻 (𝗱𝗶𝗳𝗳𝗲𝗿𝗲𝗻𝘁 𝗳𝗶𝗹𝗲 𝘁𝗿𝗲𝗲 𝗽𝗮𝗿𝗮𝗱𝗶𝗴𝗺, 𝗱𝗶𝗿𝗲𝗰𝘁𝗼𝗿𝘆 𝗰𝗼𝗻𝘃𝗲𝗻𝘁𝗶𝗼𝗻𝘀, 𝗣𝗼𝘄𝗲𝗿𝗦𝗵𝗲𝗹𝗹 𝗶𝗻𝘀𝘁𝗲𝗮𝗱 𝗼𝗳 𝗕𝗔𝗦𝗛 𝗼𝗿 𝗭𝗦𝗛) -- 𝗜𝗳 𝘆𝗼𝘂'𝗿𝗲 𝗼𝗻 𝗪𝗶𝗻𝗱𝗼𝘄𝘀, 𝘆𝗼𝘂'𝗱 𝗯𝗲 𝗯𝗲𝘁𝘁𝗲𝗿 𝗼𝗳𝗳 𝗿𝘂𝗻𝗻𝗶𝗻𝗴 𝘁𝗵𝗶𝘀 𝗼𝗻 𝗪𝗦𝗟 (𝗼𝗿 𝗪𝗦𝗟𝟮)
 
@@ -143,21 +133,7 @@ and you ended up in a Finale Battle with Telegram and at the end
 
  🙏 **THANK YOU VERY MUCH FOR**
 
-*   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
-*   [AvinashReddy3108](https://github.com/AvinashReddy3108) - PaperplaneExtended
-*   [Mkaraniya](https://github.com/mkaraniya) & [Dev73](https://github.com/Devp73) - OpenUserBot
-*   [Mr.Miss](https://github.com/keselekpermen69) - UserButt
-*   [adekmaulana](https://github.com/adekmaulana) - ProjectBish
-*   [MoveAngel](https://github.com/MoveAngel) - One4uBot
-*   [AidilAryanto](https://github.com/aidilaryanto) - ProjectDils 
-*   [Alfianandaa](https://github.com/alfianandaa/ProjectAlf) - ProjectAlf
-*   [AnggaR69s](https://github.com/GengKapak/DCLXVI) - DCLXVI
-*   [kandnub](https://github.com/kandnub) - TG-UserBot
-*   [༺αиυвιѕ༻](https://github.com/Dark-Princ3) - X-tra-Telegram
-*   [Sahyam2019](https://github.com/sahyam2019/oub-remix) - oub-remix
-*   [TeamUserge](https://github.com/UsergeTeam/Userge) - Userge
-*   [TeamUltroid](https://github.com/TeamUltroid/Ultroid) -
-Ultroid
+*
 *   [sandy1709](https://github.com/sandy1709/catuserbot) -
 catuserbot
 *   [BianSepang](https://github.com/BianSepang/WeebProject) - WeebProject
