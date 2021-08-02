@@ -145,7 +145,7 @@
    "value": "⚡Legacy-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
    "required": false
   },
-  "ALIVE_NAME": {Name to show message
+  "ALIVE_NAME": {Name to show message.",
    "description": " .alive",
    "required": false
   },
