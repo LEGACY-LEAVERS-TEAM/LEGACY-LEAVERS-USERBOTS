@@ -495,7 +495,7 @@ def alive_inline():
             \n⚙️ `Telethon    :` v. {version.__version__}\
             \n👨‍💻 `User        :` {DEFAULTUSER}\
             \n`====================================`\
-            \n Copyright © 𝟤𝟢𝟤𝟣 Lynx-Userbot\n License: Raphielscape Public License v1.d"
+            \n Copyright © 𝟤𝟢𝟤𝟣 Legacy-Userbot\n License: Raphielscape Public License v1.d"
     buttons = [
         (custom.Button.url(
             "🧪𝗥𝗘𝗣𝗢",
@@ -760,7 +760,7 @@ with lynx:
             else:
                 result = builder.article(
                     "╔╡⚡Legacy-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡╞╗",
-                    text="""**You Can Make ⚡Legacy-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Anda Sendiri\nDengan Cara :**__Tekan Dibawah Ini__ 👇""",
+                    text="""**You Can Make ⚡Legacy-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ By Yourself\By :**Press Below """,
                     buttons=[
                         [
                             custom.Button.url(
@@ -810,7 +810,7 @@ with lynx:
                                  link_preview=False,
                                  )
             else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n © Lynx-Userbot"
+                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n © Legacy-Userbot"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @lynx.tgbot.on(
@@ -821,7 +821,7 @@ with lynx:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid:  # Lynx-Openeer
                 # https://t.me/TelethonChat/115200
-                    text = f"**Copyright © 𝟤𝟢𝟤𝟣 Lynx-Userbot\nLicense: Raphielscape Public License v1.d**"
+                    text = f"**Copyright © 𝟤𝟢𝟤𝟣 Legacy-Userbot\nLicense: Raphielscape Public License v1.d**"
                     await event.edit(text,
                     file=lynxlogo,
                     link_preview=True,
@@ -965,7 +965,7 @@ with lynx:
                     help_string = (
                         str(CMD_HELP[modul_name]).replace(
                             '`', '')[:150] + "..."
-                        + "\n\nBaca Text Berikutnya Ketik .help "
+                        + "\n\n Read Next Text Type .help "
                         + modul_name
                         + " "
                     )
@@ -975,7 +975,7 @@ with lynx:
                 reply_pop_up_alert = (
                     help_string
                     if help_string is not None
-                    else "{} Tidak Ada Document Yang Tertulis Untuk Plugin".format(
+                    else "{} No Document Written For Plugin".format(
                         modul_name
                     )
                 )
