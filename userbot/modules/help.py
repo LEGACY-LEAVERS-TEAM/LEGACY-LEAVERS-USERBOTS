@@ -27,7 +27,7 @@ async def help_handler(event):
         string = ""
         for i in CMD_HELP:
             string += "`" + str(i)
-            string += "`\t|  "
+            string += "`\t💖  "
         await event.edit("⚡")
         await asyncio.sleep(2.5)
         await event.edit(f"**[⚡𝗟𝗲𝗴𝗮𝗰𝘆-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡](t.me/LEGACY_LEAVERS_UB_SUPPORT)**\n\n"
