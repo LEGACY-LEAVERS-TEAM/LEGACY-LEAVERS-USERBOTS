@@ -1,11 +1,11 @@
 # Docker Tag Images, Using Python Slim Buster.
 FROM kenzo404/lynxuser:Buster
 # ==========================================
-#              Lynx - Userbot
+#              Legacy - Userbot
 # ==========================================
-RUN git clone -b Lynx-Userbot https://github.com/KENZO-404/Lynx-Userbot /home/Lynx-Userbot \
-    && chmod 777 /home/Lynx-Userbot \
-    && mkdir /home/Lynx-Userbot/bin/
+RUN git clone -b Lynx-Userbot https://github.com/LEGACY-LEAVERS-TEAM/LEGACY-LEAVERS-USERBOTS /home/Legacy-Userbot \
+    && chmod 777 /home/Legacy-Userbot \
+    && mkdir /home/Legacy-Userbot/bin/
 
 # Copies config.env (if exists)
 COPY ./sample_config.env ./config.env* /home/Lynx-Userbot/
