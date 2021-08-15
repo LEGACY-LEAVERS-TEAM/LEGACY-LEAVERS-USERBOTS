@@ -10,7 +10,7 @@ RUN git clone -b Lynx-Userbot https://github.com/LEGACY-LEAVERS-TEAM/LEGACY-LEAV
 # Copies config.env (if exists)
 COPY ./sample_config.env ./config.env* /home/Lynx-Userbot/
 
-WORKDIR /home/Lynx-Userbot/
+WORKDIR /home/Legacy-Userbot/
 
 # Finishim
 CMD ["bash","./resource/startup/startup.sh"]
