@@ -12,6 +12,7 @@ async def usit(e):
         "\n[Dev Repo](https://github.com/LEGACY-LEAVERS-TEAM/LEGACY-LEAVERS-USERBOTS)"
         
 
+
 @register(outgoing=True, pattern="^.vars$")
 async def var(m):
     await m.edit(
