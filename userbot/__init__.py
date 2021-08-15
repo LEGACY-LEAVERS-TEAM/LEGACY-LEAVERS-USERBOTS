@@ -622,7 +622,7 @@ with lynx:
         async def handler(event):
             if event.message.from_id != uid:
                 await event.reply(
-                    f"⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Deploy to Heroku, Click Here 👇🏻",
+                    f"⚡𝗟𝗲𝗴𝗮𝗰𝘆-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Deploy to Heroku, Click Here 👇🏻",
                     buttons=[
                         [Button.url("⚒️ 𝗗𝗘𝗣𝗟𝗢𝗬 ⚒️", "https://zee.gl/DeployToHeroku")],
                         [Button.url("👥 𝗚𝗥𝗢𝗨𝗣 👥", "t.me/LEGACY_USERBOT_SUPPORT")],
@@ -720,12 +720,12 @@ with lynx:
                     link_preview=True)
             else:
                 result = builder.article(
-                    "╔╡⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡╞╗",
+                    "╔╡⚡𝗟𝗲𝗴𝗮𝗰𝘆-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡╞╗",
                     text="""**You Can Make ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Yourself\nBy :**__Press Below__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
+                                "⚡𝗟𝗲𝗴𝗮𝗰𝘆-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
                                 "https://zee.gl/lynx404"),
                             custom.Button.url(
                                 "Dᴇᴠᴇʟᴏᴘᴇʀ",
