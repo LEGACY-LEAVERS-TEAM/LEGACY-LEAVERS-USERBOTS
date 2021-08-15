@@ -82,10 +82,8 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
-        "\n[⚡Lynx-Userbot⚡ Repo](https://zee.gl/lynx404)"
-        "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
-        "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
-
+        "\n[⚡Legacy-Userbot⚡ Repo](https://github.com/LEGACY-LEAVERS-TEAM/LEGACY-LEAVERS-USERBOTS)"
+        
 
 # Copyright (c) Gegham Zakaryan | 2019
 @register(outgoing=True, pattern=r"^\.repeat (.*)")
@@ -112,8 +110,8 @@ async def repo_is_here(wannasee):
         "╭─━━━━━━━━━━━━━─╯\n"
         "│⊙ **Dᴇᴠᴇʟᴏᴘᴇʀ :** [👤DEV](https://zee.gl/KENZO404)\n"
         "╰━━━━━━━━━━━━━━━╯\n"
-        "  𝗟𝗶𝗰𝗲𝗻𝘀𝗲 : [Raphielscape Public License 1.d](https://github.com/KENZO-404/Lynx-Userbot/blob/Lynx-Userbot/LICENSE)\n"
-        "  **Cᴏᴘʏʀɪɢʜᴛ © 𝟤𝟢𝟤𝟣** @LynxUserbot"
+        "  𝗟𝗶𝗰𝗲𝗻𝘀𝗲 : [Raphielscape Public License 1.d](https://github.com/LEGACY-LEAVERS-TEAM/LEGACY-LEAVERS-USERBOTS/Legacy-Userbot/blob/Lynx-Userbot/LICENSE)\n"
+        "  **Cᴏᴘʏʀɪɢʜᴛ © 𝟤𝟢𝟤𝟣** @LEGACY_LEAVERS_UB_SUPPORT"
     )
 
 
