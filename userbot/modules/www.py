@@ -201,10 +201,10 @@ async def pingme(pong):
 CMD_HELP.update({
     "speedtest": "✘ Pʟᴜɢɪɴ : `Speed Test`\
          \n\n⚡𝘾𝙈𝘿⚡: `.ping` | `.lping` | `.xping` | `.sping`\
-         \n↳ : Untuk Menunjukkan Ping Bot Anda.\
-         \n\n⚡𝘾𝙈𝘿⚡: `.pong`\
+         \n↳ : .\
+         \n\n⚡To Show Your Ping Bot𝘾𝙈𝘿⚡: `.pong`\
          \n↳ : Sama Seperti Perintah Ping.\
          \n\n⚡𝘾𝙈𝘿⚡: `.speedtest`\
-         \n↳ : Untuk Menunjukkan Kecepatan Jaringan Anda.\
+         \n↳ : To Show Your Network Speed.\
          \n\n⚡𝘾𝙈𝘿⚡: `.dc`\
-         \n↳ : Menemukan Server Dari Datacenter Kamu."})
+         \n↳ : Finding Servers From Your Datacenter."})
