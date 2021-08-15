@@ -82,7 +82,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
-        "\n[⚡Legacy-Userbot⚡ Repo](https://github.com/LEGACY-LEAVERS-TEAM/LEGACY-LEAVERS-USERBOTS)"
+        "\n[⚡Legacy-Userbot⚡ Repo](https://github.com/LEGACY-LEAVERS-TEAM/LEGACY-LEAVERS-USERBOT)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
 
