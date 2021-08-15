@@ -30,7 +30,7 @@ async def help_handler(event):
             string += "`\t|  "
         await event.edit("⚡")
         await asyncio.sleep(2.5)
-        await event.edit(f"**[⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡](t.me/LEGACY_LEAVERS_UB_SUPPORT)**\n\n"
+        await event.edit(f"**[⚡𝗟𝗲𝗴𝗮𝗰𝘆-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡](t.me/LEGACY_LEAVERS_UB_SUPPORT)**\n\n"
                          f"**◑» Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n**◑» Pʟᴜɢɪɴ : {len(modules)}**\n\n"
                          "**• Mᴀɪɴ Mᴇɴᴜ :**\n"
                          f"╰►| {string} ◄─\n\n"
