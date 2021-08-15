@@ -177,7 +177,7 @@ async def bot_ver(event):
                 str(stderr.decode().strip())
 
             await event.edit(
-                "`Lynx Version: " f"{verout}" "` \n" "`Revision: " f"{revout}" "`"
+                "`Legacy Version: " f"{verout}" "` \n" "`Revision: " f"{revout}" "`"
             )
         else:
             await event.edit(
@@ -249,7 +249,7 @@ async def ireallyalive(event):
         f"⚙️ `Telethon    :` v. {version.__version__}\n"
         f"👨‍💻 `User        :` {DEFAULTUSER}\n"
         "`====================================`\n"
-        f" Copyright © 𝟤𝟢𝟤𝟣 Lynx-Userbot\n License : Raphielscape Public License v1.d")
+        f" Copyright © 𝟤𝟢𝟤𝟣 Legacy-Userbot\n License : Raphielscape Public License v1.d")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -329,7 +329,7 @@ async def amireallyalive(alive):
         f"├◈ **Don't forget to support our**\n"
         f"│    **userbot, how to press below.**\n"
         f"╰╼════════════════════╾╯\n"
-        f"| [𝗥𝗲𝗽𝗼](https://github.com/LEGACY-LEAVERS-TEAM/LEGACY-LEAVERS-USERBOT) | [𝗟𝘆𝗻𝘅-𝗧𝗲𝗮𝗺](t.me/GroupTidakDiketahui) | "
+        f"| [𝗥𝗲𝗽𝗼](https://github.com/LEGACY-LEAVERS-TEAM/LEGACY-LEAVERS-USERBOT) | [𝗟𝘆𝗻𝘅-𝗧𝗲𝗮𝗺](https://t.me/LEGACY_LEAVERS_UB_SUPPORT) | "
         f"[𝗠𝘆 𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺]({INSTAGRAM_ALIVE}) | ")
     if ALIVE_LOGO:
         try:
@@ -375,7 +375,7 @@ CMD_HELP.update({
     "\n\n⚡𝘾𝙈𝘿⚡: `.spc`"
     "\n↳ : Show system specification.",
     "alive": "✘ Pʟᴜɢɪɴ : Alive"
-    "\n\n⚡𝘾𝙈𝘿⚡: `.lynx` or `.xon` | `.alive` or `.on`"
+    "\n\n⚡𝘾𝙈𝘿⚡: `.legacy` or `.xon` | `.alive` or `.on`"
     "\n↳ : To see whether your bot is working or not."
     "\n\n⚡𝘾𝙈𝘿⚡: `.dealiveu` <New Username>"
     "\n↳ : Changes the 'user' in alive to the text you want."
