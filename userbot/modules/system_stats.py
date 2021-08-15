@@ -329,7 +329,7 @@ async def amireallyalive(alive):
         f"├◈ **Don't forget to support our**\n"
         f"│    **userbot, how to press below.**\n"
         f"╰╼════════════════════╾╯\n"
-        f"| [𝗥𝗲𝗽𝗼](https://github.com/LEGACY-LEAVERS-TEAM/LEGACY-LEAVERS-USERBOT) | [𝗟𝘆𝗻𝘅-𝗧𝗲𝗮𝗺](https://t.me/LEGACY_LEAVERS_UB_SUPPORT) | "
+        f"| [𝗥𝗲𝗽𝗼](https://github.com/LEGACY-LEAVERS-TEAM/LEGACY-LEAVERS-USERBOT) | [𝗟𝗲𝗴𝗮𝗰𝘆-𝗧𝗲𝗮𝗺](https://t.me/LEGACY_LEAVERS_UB_SUPPORT) | "
         f"[𝗠𝘆 𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺]({INSTAGRAM_ALIVE}) | ")
     if ALIVE_LOGO:
         try:
