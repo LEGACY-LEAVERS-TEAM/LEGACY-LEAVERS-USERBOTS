@@ -37,5 +37,5 @@ async def help_handler(event):
                          f"**License : [Raphielscape Public License 1.d](https://github.com/LEGACY-LEAVERS-TEAM/LEGACY-LEAVERS-USERBOTS/blob/Lynx-Userbot/LICENSE)**\n"
                          f"**Copyright © 2021 [Legacy-Userbot LLC Company](https://github.com/LEGACY-LEAVERS-TEAM/LEGACY-LEAVERS-USERBOTS/)**")
         await event.reply(f"\n**Example** : Type » `.help admin` for Admin Plugin Usage Information.")
-        await asyncio.sleep(1000)a
+        await asyncio.sleep(1000)
         await event.delete()
